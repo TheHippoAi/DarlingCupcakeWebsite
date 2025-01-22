@@ -1,4 +1,5 @@
 Darling Cupcake Bakery - Frontend Project 🍰
+
 Darling Cupcake Bakery is a visually stunning and interactive frontend website designed for a fictional bakery that specializes in freshly baked cupcakes. The project showcases the use of modern frontend technologies to create a delightful user experience.
 
 🎨The website includes the following key features:
