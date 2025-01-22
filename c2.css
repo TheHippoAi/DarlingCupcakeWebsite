@@ -1,0 +1,52 @@
+/* General Body Styling */
+body {
+    background-color: blanchedalmond; /* Matches the vanilla theme */
+    font-family: 'Georgia', serif;
+    color: #5a4b41; /* Warm chocolate brown */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to bottom, #f8f3e7, #fce9cb);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #3e2723;
+    margin-bottom: 2rem;
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Fun Section */
+.fun-section {
+    background-color: #fdf7e6;
+    color: #6d4c41;
+    border: 2px dashed #e8cfa5;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Button Styling */
+.btn-outline-warning {
+    border: 2px solid #d4af37;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-warning:hover {
+    background-color: #d4af37;
+    color: white;
+}

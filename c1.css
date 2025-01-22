@@ -1,0 +1,50 @@
+/* General Styling */
+body {
+    background-color: #ffe4e1; /* Light pink to match the theme */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #ff69b4; /* Deep Pink */
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Button Styling */
+.btn-outline-warning {
+    border: 2px solid #ff69b4;
+    transition: 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ff69b4;
+    color: white;
+    border-color: #ff69b4;
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional Padding for Fun Section */
+.text-center h2 {
+    font-size: 2rem;
+    color: #ff1493; /* Deep pink accent */
+}

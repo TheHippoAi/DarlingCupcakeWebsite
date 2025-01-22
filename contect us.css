@@ -1,0 +1,121 @@
+/* General Body Styling */
+body {
+    background-color: #fff7e6; /* Light cream background */
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+/* Header Styling */
+h1 {
+    color: #cc5500; /* Warm orange */
+    font-size: 3rem;
+}
+
+p.lead {
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    color: #cc5500;
+    font-weight: bold;
+}
+
+form .btn-warning {
+    background-color: #cc5500;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form .btn-warning:hover {
+    background-color: #ff6600;
+}
+
+/* Contact Details Styling */
+h2, h3 {
+    color: #cc5500;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.btn-outline-warning {
+    border: 2px solid #ff6600;
+    color: #ff6600;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* General Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Sequential Delay for Elements */
+.animated:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.animated:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.animated:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.animated:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+/* Smooth Card Effect */
+.card {
+    opacity: 0;
+    animation: slideUp 1.5s ease-in-out forwards;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Fade-In for Headings */
+h1, h2 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}

@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+    .carousel-caption h5 {
+      font-size: 1.2rem;
+    }
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+  }
+  
